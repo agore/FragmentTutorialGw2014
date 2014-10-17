@@ -1,0 +1,19 @@
+[{
+	"name" : "Veyron Supersport",
+	"image" : "bugatti_veyron",
+	"description" : "The Bugatti Veyron EB 16.4 is a mid-engined supercar, designed and developed by the Volkswagen Group and manufactured in Molsheim, France, by Bugatti Automobiles S.A.S.\n\nThe original version had a top speed of 407.12 km/h (252.97 mph). It was named Car of the Decade (2000–2009) by the BBC television programme Top Gear. The standard Bugatti Veyron also won Top Gear's Best Car Driven All Year award in 2005.\n\nThe current Super Sport version of the Veyron is recognized by Guinness World Records as the fastest street-legal production car in the world, with a top speed of 431.072 km/h (267.856 mph), and the roadster Veyron Grand Sport Vitesse version is the fastest roadster in the world, reaching an averaged top speed of 408.84 km/h (254.04 mph) in a test in 6 April 2013.\n\nThe Veyron's chief designer was Hartmut Warkuss, and the exterior was designed by Jozef Kabaň of Volkswagen, with much of the engineering work being conducted under the guidance of engineering chief Wolfgang Schreiber.",
+	"manufacturer" : "Bugatti"
+},
+{
+	"name" : "Venom GT",
+	"image" : "hennessey_venom",
+	"description" : "The Hennessey Venom GT is an American sports car manufactured by Texas-based Hennessey Performance Engineering. It was revealed on March 29, 2010.\n\nOn January 21, 2013, the Venom GT set a Guinness World Record for the fastest production car from 0–300 kilometres per hour (0–186 mph) with an average acceleration time of 13.63 seconds.[3] In addition, the car set an unofficial record for 0–200 mph (0–322 km/h) acceleration at 14.51 seconds, beating the Koenigsegg Agera R's time of 17.68 seconds, making it the unofficial fastest accelerating car in the world.\n\nOn April 3, 2013, the Hennessy Venom GT crested 265.7 mph (427.6 km/h) over the course of 2 miles (3.2 km) during testing at United States Naval Air Station Lemoore in Lemoore, California. Hennessey used two VBOX 3i data logging systems to document the run and had VBOX officials on hand to certify the numbers.\n\nOn February 14, 2014, on the Kennedy Space Center’s 3.22-mile shuttle landing strip in Florida, the Hennessey team recorded a top speed of 270.49 mph (435.31 km/h) with Director of Miller Motorsport Park, Brian Smith, at the wheel. As the run was in a single direction and only 16 cars have been sold to date (to qualify Hennessey must build 30), it does not qualify as the world's fastest production car in the Guinness Book of Records.",
+	"manufacturer" : "Hennessey"
+},
+{	"name" : "Agera R 2013",
+	"image" : "koenigsegg_agera",
+	"description" : "The Koenigsegg Agera is a mid-engined sports car made by Swedish car manufacturer Koenigsegg as of 2011. It is a successor to the Koenigsegg CCX/CCXR. The name Agera comes from the Swedish verb 'agera' which means \"to act\" or \"to take action\".\n\nIt was named Hypercar of the Year in 2010 by Top Gear Magazine.\n\nThe Agera is powered by an in-house developed 5.0-litre twin-turbocharged V8 engine which produces 940 hp (701 kW) at 6900 rpm and 1,100 N·m (810 lb·ft) of torque at 4000 rpm. Total weight of the engine is only 197 kg (434 lb) thanks to a carbon fiber intake manifold and the aluminium construction. The transmission is a 7-speed dual clutch with paddle shifters. It is the first dual clutch transmission to feature only one input shaft. The second clutch slows down the input shaft during up shifts in order to reduce the time it takes to synchronize the next gear, resulting in faster shift times. Most notably, the transmission weighs only 81 kg (179 lb)",
+	"manufacturer": "Koenigsegg"
+}]
+
+
