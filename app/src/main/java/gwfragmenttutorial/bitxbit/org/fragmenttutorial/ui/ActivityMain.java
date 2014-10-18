@@ -6,9 +6,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import gwfragmenttutorial.bitxbit.org.fragmenttutorial.R;
+import gwfragmenttutorial.bitxbit.org.fragmenttutorial.model.Car;
 
 
-public class ActivityMain extends Activity {
+public class ActivityMain extends Activity implements FragmentListing.OnCarSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,4 +42,8 @@ public class ActivityMain extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onCarSelected(Car car) {
+        getFragmentManager().beginTransaction().replace(R.id.container, FragmentDetails.newInstance(car)).commit();
+    }
 }

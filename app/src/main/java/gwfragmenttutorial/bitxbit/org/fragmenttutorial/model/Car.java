@@ -1,7 +1,9 @@
 package gwfragmenttutorial.bitxbit.org.fragmenttutorial.model;
 
-public class Car {
-    private static int idGen = 0;
+import java.io.Serializable;
+
+public class Car implements Serializable{
+    private transient static int idGen = 0;
     private int id;
     private String name;
     private String image;
