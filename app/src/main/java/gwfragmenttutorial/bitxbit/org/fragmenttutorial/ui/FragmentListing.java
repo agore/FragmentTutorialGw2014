@@ -19,11 +19,13 @@ import gwfragmenttutorial.bitxbit.org.fragmenttutorial.model.ListingAdapter;
 public class FragmentListing extends Fragment {
     private ListView listing;
     private OnCarSelectedListener listener;
+    private OnFirstCarIdentifiedListener onFirstCarIdentifiedListener;
 
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         listener = (OnCarSelectedListener) activity;
+        onFirstCarIdentifiedListener = (OnFirstCarIdentifiedListener) activity;
     }
 
     @Override
@@ -38,6 +40,7 @@ public class FragmentListing extends Fragment {
                 listener.onCarSelected((Car) adapterView.getItemAtPosition(position));
             }
         });
+
         return rootView;
     }
 
@@ -47,9 +50,19 @@ public class FragmentListing extends Fragment {
 
         List<Car> cars = new CarParser(getActivity().getApplicationContext()).parse();
         listing.setAdapter(new ListingAdapter(getActivity().getApplicationContext(), cars));
+        Car firstCarInList = (Car) listing.getAdapter().getItem(0);
+        onFirstCarIdentifiedListener.onFirstCarIdentified(firstCarInList);
+
     }
 
     public static interface OnCarSelectedListener {
         void onCarSelected(Car car);
     }
+
+    public static interface OnFirstCarIdentifiedListener {
+        void onFirstCarIdentified(Car car);
+    }
+
+
+
 }
